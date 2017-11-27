@@ -46,3 +46,38 @@ function reverse(x){
 }
 
 
+function add(a,b){
+  let sum = null;
+  if(Number.isInteger(a) && Number.isInteger(b)){
+     sum = a + b;
+  }
+  return sum;
+}
+
+function multiply(a,b){
+  let product = null;
+  if(Number.isInteger(a) && Number.isInteger(b)){
+    product = a*b;
+  }
+  return product;
+}
+
+function divide(a,b){
+  let division = null;
+  if(Number.isInteger(a) && Number.isInteger(b)){
+    division = a/b;
+  }
+  return division;
+}
+
+function subtract(a,b){
+  let difference = null;
+  if(Number.isInteger(a) && Number.isInteger(b)){
+    difference = a-b;
+  }
+  return difference;
+}
+
+
+
+
