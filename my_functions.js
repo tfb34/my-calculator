@@ -30,7 +30,6 @@ function vowel_count(str){
     }
   }
     return num_vowels;
-  }
 }
 
 /*
@@ -78,6 +77,57 @@ function subtract(a,b){
   return difference;
 }
 
+(function() {
+    document.getElementById("1").onclick = function() { 
+        console.log('1'); 
+    };
+})();
 
+(function() {
+    document.getElementById("2").onclick = function() { 
+        console.log('2'); 
+    };
+})();
 
+(function() {
+    document.getElementById("3").onclick = function() { 
+        console.log('3'); 
+    };
+})();
+
+(function() {
+    document.getElementById("4").onclick = function() { 
+        console.log('4'); 
+    };
+})();
+
+(function() {
+    document.getElementById("5").onclick = function() { 
+        console.log('5'); 
+    };
+})();
+
+(function() {
+    document.getElementById("6").onclick = function() { 
+        console.log('6'); 
+    };
+})();
+
+(function() {
+    document.getElementById("7").onclick = function() { 
+        console.log('7'); 
+    };
+})();
+
+(function() {
+    document.getElementById("8").onclick = function() { 
+        console.log('8'); 
+    };
+})();
+
+(function() {
+    document.getElementById("9").onclick = function() { 
+        console.log('9'); 
+    };
+})();
 
