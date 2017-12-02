@@ -1,6 +1,24 @@
+:root {
+	--digitColor: rgb(1,8,79);
+	--digitHoverColor: #eca514;
+
+	--mathOpColor: rgb(167,60,90);
+	--mathOpHoverColor: #eca514;
+
+	--totalColor: rgb(99,30,80);
+	--totalHoverColor: #eca514;
+
+	--clearButtonColor: rgb(255,121,84);
+	--clearHoverColor: #eca514;
+
+	--short: 'Short Stack', cursive;
+	--patrick: 'Patrick Hand SC', cursive;
+	--marg: 'Margarine', cursive;
+}
+
 body{
     padding:0;margin: 0;
-    background-color: pink;
+    background-color: #6C98B6;
 }
 p{
     background-color: #6C98B6;
@@ -111,8 +129,65 @@ p{
 	width: 100px;
 	background-color: magenta;
 }
-
 p{
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#window{
+	background-color: white;
+	border:1px solid black;
+}
+
+.digit p, .operation p, #clear p, .total p {
+	border: 1px solid grey;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	font-family: var(--short);
+}
+.digit p{
+	background-color: var(--digitColor);
+}
+.digit p:hover{
+	background-color: var(--digitHoverColor);
+}
+#header{
+	font-size: 50px;
+	font-family: var(--short);
+	color: white;
+
+}
+#clear p{
+	background-color: var(--clearButtonColor);
+}
+#clear p:hover{
+	background-color: var(--clearHoverColor);
+}
+.total p{
+	background-color: var(--totalColor);
+}
+.total p:hover{
+	background-color: var(--totalHoverColor);
+}
+.operation p{
+	background-color: var(--mathOpColor);
+}
+.operation p:hover{
+	background-color: var(--mathOpHoverColor);
+}
+
+@media screen and (max-width: 414px){
+	.column-offset-4{
+    	margin-left: 0;
+	}
+	.column-1{
+    	width: 22%;
+	}
+	.column-4{
+    	width: 95%;
+	}
+	#header{
+		font-size: 20px;
+	}
 }

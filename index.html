@@ -4,44 +4,54 @@
     <meta charset="utf-8">
 
 	<title>Awesome Calculator</title>
+     <link href="https://fonts.googleapis.com/css?family=Margarine|Patrick+Hand+SC|Short+Stack" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="custom.css">
 </head>
 <body>
+
+    <p id="header">Kid's Calculator</p>
+
+    <div class="row" style="padding-top: 50px;">
+        <div class="column-offset-4"><p></p></div>
+        <div class="column-4"><p id="window">0</p></div>
+        
+    </div>
+
     <div class="row">
-        <div class="column-offset-4 digit"><p></p></div>
-        <div class="column-1" id="1"><p>1</p></div>
-        <div class="column-1" id="2"><p>2</p></div>
-        <div class="column-1" id="3"><p>3</p></div>
+        <div class="column-offset-4"><p></p></div>
+        <div class="column-1 digit" id="1"><p>1</p></div>
+        <div class="column-1 digit" id="2"><p>2</p></div>
+        <div class="column-1 digit" id="3"><p>3</p></div>
         <div class="column-1 operation" id="/"><p>&divide;</p></div>
     </div>
 
     <div class="row">
         <div class="column-offset-4"><p></p></div>
-        <div class="column-1" id="4" ><p>4</p></div>
-        <div class="column-1" id="5"><p>5</p></div>
-        <div class="column-1" id="6"><p>6</p></div>
+        <div class="column-1 digit" id="4" ><p>4</p></div>
+        <div class="column-1 digit" id="5"><p>5</p></div>
+        <div class="column-1 digit" id="6"><p>6</p></div>
         <div class="column-1 operation" id="x"><p>&times;</p></div>
     </div>
 
     <div class="row">
         <div class="column-offset-4"><p></p></div>
-        <div class="column-1" id="7"><p>7</p></div>
-        <div class="column-1" id="8"><p>8</p></div>
-        <div class="column-1" id="9"><p>9</p></div>
+        <div class="column-1 digit" id="7"><p>7</p></div>
+        <div class="column-1 digit" id="8"><p>8</p></div>
+        <div class="column-1 digit" id="9"><p>9</p></div>
         <div class="column-1 operation" id="-"><p>&mdash;</p></div>
     </div>
 
     <div class="row">
         <div class="column-offset-4"><p></p></div>
-        <div class="column-1" id="0"><p>0</p></div>
-        <div class="column-1" id="."><p>.</p></div>
+        <div class="column-1 digit" id="0"><p>0</p></div>
+        <div class="column-1 digit" id="."><p>.</p></div>
         <div class="column-1" id="clear"><p>clear</p></div>
         <div class="column-1 operation" id="+"><p>+</p></div>
     </div>
 
     <div class="row">
         <div class="column-offset-4"><p></p></div>
-        <div class="column-4" id="="><p>=</p></div>
+        <div class="column-4 total" id="="><p>=</p></div>
     </div>
 
     <script type="text/javascript" src="my_functions.js"></script>
